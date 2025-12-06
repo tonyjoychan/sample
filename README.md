@@ -33,7 +33,7 @@ The project is organized as follows:
 - **tsconfig.json**: TypeScript configuration.
 - **next.config.js**: Next.js configuration settings.
 - **README.md**: Documentation for the project.
-
+Sample is always sample
 ## Getting Started
 
 To get started with this project, clone the repository and install the dependencies:
