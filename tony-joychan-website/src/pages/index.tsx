@@ -1,0 +1,24 @@
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+const HomePage = () => {
+    return (
+        <div>
+            <Header />
+            <main>
+                <h1>Welcome to Tony Joychan's Website</h1>
+                <p>
+                    Hello! I'm Tony Joychan, an Azure architect with a passion for building scalable and efficient cloud solutions. 
+                    With extensive experience in designing and implementing cloud architectures, I strive to help businesses leverage the power of Azure to achieve their goals.
+                </p>
+                <p>
+                    Explore my projects, read my blog, or get in touch to learn more about my work and how I can assist you in your cloud journey.
+                </p>
+            </main>
+            <Footer />
+        </div>
+    );
+};
+
+export default HomePage;

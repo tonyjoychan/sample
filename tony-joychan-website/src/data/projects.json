@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Azure Cloud Migration",
+        "description": "Led the migration of on-premises applications to Azure, improving scalability and reducing costs.",
+        "technologies": ["Azure", "Docker", "Kubernetes"],
+        "link": "https://github.com/tonyjoychan/azure-cloud-migration"
+    },
+    {
+        "title": "Serverless API Development",
+        "description": "Developed a serverless API using Azure Functions, enabling rapid deployment and cost-effective scaling.",
+        "technologies": ["Azure Functions", "Node.js", "Cosmos DB"],
+        "link": "https://github.com/tonyjoychan/serverless-api"
+    },
+    {
+        "title": "Data Analytics Dashboard",
+        "description": "Created a data analytics dashboard using Azure Data Lake and Power BI for real-time insights.",
+        "technologies": ["Azure Data Lake", "Power BI", "Python"],
+        "link": "https://github.com/tonyjoychan/data-analytics-dashboard"
+    },
+    {
+        "title": "Multi-Cloud Strategy Implementation",
+        "description": "Implemented a multi-cloud strategy that integrated Azure with AWS, enhancing redundancy and performance.",
+        "technologies": ["Azure", "AWS", "Terraform"],
+        "link": "https://github.com/tonyjoychan/multi-cloud-strategy"
+    }
+]

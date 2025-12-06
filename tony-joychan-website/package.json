@@ -1,0 +1,30 @@
+{
+  "name": "tony-joychan-website",
+  "version": "1.0.0",
+  "description": "Personal website for Tony Joychan, an Azure architect.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "Tony Joychan",
+    "Azure",
+    "architect",
+    "portfolio",
+    "website"
+  ],
+  "author": "Tony Joychan",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
+  }
+}
