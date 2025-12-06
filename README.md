@@ -1,4 +1,4 @@
-# Tony Joychan's Personal Website
+# Tony Joychan Personal Website
 
 Welcome to the personal website of Tony Joychan, an Azure architect dedicated to leveraging cloud technologies to build innovative solutions. This website serves as a portfolio showcasing my professional background, projects, and insights into the world of cloud architecture.
 
