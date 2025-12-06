@@ -1,4 +1,4 @@
-# Tony Joychan's Personal Website
+# Tony Joychan Personal Website
 
 Welcome to the personal website of Tony Joychan, an Azure architect dedicated to leveraging cloud technologies to build innovative solutions. This website serves as a portfolio showcasing my professional background, projects, and insights into the world of cloud architecture.
 
@@ -33,7 +33,7 @@ The project is organized as follows:
 - **tsconfig.json**: TypeScript configuration.
 - **next.config.js**: Next.js configuration settings.
 - **README.md**: Documentation for the project.
-
+Sample is always sample
 ## Getting Started
 
 To get started with this project, clone the repository and install the dependencies:
