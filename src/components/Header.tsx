@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Header: React.FC = () => {
     return (
         <header>
-            <h1>Tony Joychan! Dev Branch!</h1>
+            <h1>Tony Joychan! Dev Branch Gravity</h1>
             <nav>
                 <ul>
                     <li><Link href="/">Home</Link></li>
