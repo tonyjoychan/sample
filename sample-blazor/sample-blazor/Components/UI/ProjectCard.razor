@@ -1,0 +1,21 @@
+<div class="project-card">
+    <h3>@Title</h3>
+    <p>@Description</p>
+    <div class="project-links">
+        @if (!string.IsNullOrEmpty(LiveDemoUrl))
+        {
+            <a href="@LiveDemoUrl" target="_blank" rel="noopener noreferrer">Live Demo</a>
+        }
+        @if (!string.IsNullOrEmpty(RepositoryUrl))
+        {
+            <a href="@RepositoryUrl" target="_blank" rel="noopener noreferrer">View Repository</a>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Title { get; set; } = "";
+    [Parameter] public string Description { get; set; } = "";
+    [Parameter] public string? LiveDemoUrl { get; set; }
+    [Parameter] public string? RepositoryUrl { get; set; }
+}

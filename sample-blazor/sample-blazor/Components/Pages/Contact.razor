@@ -1,0 +1,32 @@
+@page "/contact"
+
+<PageTitle>Contact - Tony Joychan</PageTitle>
+
+<div>
+    <h1>Contact Tony Joychan</h1>
+    <p>If you would like to get in touch with me, please fill out the form below or reach out via email.</p>
+    <form class="contact-form" method="post" @onsubmit="HandleSubmit">
+        <!-- Note: Real form handling requires server interactivity or form action. For now using vanilla HTML form style with a dummy handler to prevent reload for demo, or better Enhanced Forms. -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+    <p>You can also reach me at: <a href="mailto:tony.joychan@example.com">tony.joychan@example.com</a></p>
+</div>
+
+@code {
+    private void HandleSubmit()
+    {
+        // Handle form submission
+    }
+}

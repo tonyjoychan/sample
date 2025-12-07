@@ -1,0 +1,54 @@
+@page "/projects"
+
+<PageTitle>Projects - Tony Joychan</PageTitle>
+
+<div>
+    <h1>Projects</h1>
+    <div class="projects-list">
+        @foreach (var project in ProjectsData)
+        {
+            <ProjectCard 
+                Title="@project.Title" 
+                Description="@project.Description" 
+                LiveDemoUrl="@project.Link" 
+            />
+        }
+    </div>
+</div>
+
+@code {
+    private List<ProjectItem> ProjectsData = new List<ProjectItem>
+    {
+        new ProjectItem
+        {
+            Title = "Azure Cloud Migration",
+            Description = "Led the migration of on-premises applications to Azure, improving scalability and reducing costs.",
+            Link = "https://github.com/tonyjoychan/azure-cloud-migration"
+        },
+        new ProjectItem
+        {
+            Title = "Serverless API Development",
+            Description = "Developed a serverless API using Azure Functions, enabling rapid deployment and cost-effective scaling.",
+            Link = "https://github.com/tonyjoychan/serverless-api"
+        },
+        new ProjectItem
+        {
+            Title = "Data Analytics Dashboard",
+            Description = "Created a data analytics dashboard using Azure Data Lake and Power BI for real-time insights.",
+            Link = "https://github.com/tonyjoychan/data-analytics-dashboard"
+        },
+        new ProjectItem
+        {
+            Title = "Multi-Cloud Strategy Implementation",
+            Description = "Implemented a multi-cloud strategy that integrated Azure with AWS, enhancing redundancy and performance.",
+            Link = "https://github.com/tonyjoychan/multi-cloud-strategy"
+        }
+    };
+
+    private class ProjectItem
+    {
+        public string Title { get; set; } = "";
+        public string Description { get; set; } = "";
+        public string Link { get; set; } = "";
+    }
+}

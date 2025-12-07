@@ -1,0 +1,21 @@
+{
+  "name": "Tony Joychan's Website",
+  "short_name": "TonyJoychan",
+  "description": "Personal website of Tony Joychan, an Azure architect.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0078d4",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

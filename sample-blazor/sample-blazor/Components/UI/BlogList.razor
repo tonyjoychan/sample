@@ -1,0 +1,46 @@
+<div class="blog-list">
+    <h2>Blog Posts</h2>
+    <ul>
+        @foreach (var post in BlogPosts)
+        {
+            <li>
+                <h3>@post.Title</h3>
+                <p>@post.Date</p>
+                <p>@post.Excerpt</p>
+                <a href="@post.Link">Read more</a>
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    private List<BlogPost> BlogPosts = new List<BlogPost>
+    {
+        new BlogPost { 
+            Title = "Understanding Azure Architecture", 
+            Date = "2023-01-15", 
+            Excerpt = "A deep dive into the principles of Azure architecture and best practices.", 
+            Link = "/blog/understanding-azure-architecture" 
+        },
+        new BlogPost { 
+            Title = "Building Scalable Applications on Azure", 
+            Date = "2023-02-10", 
+            Excerpt = "Learn how to design applications that scale seamlessly in the Azure cloud.", 
+            Link = "/blog/building-scalable-applications" 
+        },
+        new BlogPost { 
+            Title = "Azure DevOps: A Comprehensive Guide", 
+            Date = "2023-03-05", 
+            Excerpt = "An overview of Azure DevOps and how it can streamline your development process.", 
+            Link = "/blog/azure-devops-guide" 
+        }
+    };
+
+    public class BlogPost
+    {
+        public string Title { get; set; } = "";
+        public string Date { get; set; } = "";
+        public string Excerpt { get; set; } = "";
+        public string Link { get; set; } = "";
+    }
+}
